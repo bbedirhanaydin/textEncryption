@@ -25,7 +25,7 @@ Code functioning summary: <br>
 I converted it into an array as an element. <br>
  We can't separate the text from carriage returns because the split("\n") method can be used in line-separated string structures.<br>
 It works. Although TextInput looks like it splits the text into lines, it actually gives us a string in a single line.
-rotary. The split("\n") method does not work because there is no "\n" in it.
+rotary. The split("\n") method does not work because there is no "\n" in it.<br>
 2-I made a string by combining the resulting array element with the join("") method.<br>
 3-I converted this string into an array with the split(" ") method.<br>
 4- As a result, each sentence became an array and each word became an element of the sentence it was in.<br>
