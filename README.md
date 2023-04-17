@@ -31,7 +31,7 @@ rotary. The split("\n") method does not work because there is no "\n" in it.
 4- As a result, each sentence became an array and each word became an element of the sentence it was in.<br>
 5-Using the latest forEach loop, words with odd index numbers are reversed, even words are reversed.
 We wrote the words straight.
-<br>
+
 Note:
 - Test was written in the project. You can run the test with npm test
 
